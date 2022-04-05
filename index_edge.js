@@ -30,7 +30,7 @@ var symbols = {
                 id: 'b',
                 type: 'image',
                 rect: ['1px', '0px','120px','670px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",'b.jpg','0px','0px']
+                fill: ["rgba(0,0,0,0)",im+'b.jpg','0px','0px']
             },
             {
                 id: 'Rectangle',
@@ -97,13 +97,13 @@ var symbols = {
                 id: 'tt',
                 type: 'image',
                 rect: ['1px', '637px','120px','20px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",'tt.jpg','0px','0px']
+                fill: ["rgba(0,0,0,0)",im+'tt.jpg','0px','0px']
             },
             {
                 id: 'au',
                 type: 'image',
                 rect: ['1px', '276px','120px','183px','auto', 'auto'],
-                fill: ["rgba(0,0,0,0)",'au.png','0px','0px','100%','100%'],
+                fill: ["rgba(0,0,0,0)",im+'au.png','0px','0px','100%','100%'],
                 transform: [[],[],[],['-1']]
             }],
             symbolInstances: [
